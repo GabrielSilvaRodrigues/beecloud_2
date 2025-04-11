@@ -96,22 +96,5 @@ public class Main {
         }
         sc.close();
     }
-}*/
-
-/**Tradução para Java*
-
-Aqui está o código traduzido para Java:
-
-```java
-for (int i = 0; i < n; i++) {
-    StringBuilder row = new StringBuilder();
-    for (int v : matrix[i]) {
-        row.append(String.format("%3s", v));
-    }
-    System.out.println(row.toString());
 }
-
-System.out.println();
-```
-
-Certifique-se de que a variável `matrix` é uma matriz bidimensional de inteiros e `n` é o número de linhas.*/
+*/
